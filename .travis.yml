@@ -35,4 +35,3 @@ script:
 env:
   global:
   - UNITYCI_PROJECT_NAME="Breakout"
-  - UPLOAD_KEYPATH="./Scripts/upload"
