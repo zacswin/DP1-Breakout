@@ -23,12 +23,7 @@ install:
 script:
 - sudo -E sh ./Scripts/build.sh
 
-# run the script to upload the builds as tarballs
-# after_success:
-# - sudo -E sh ./Scripts/post_build.sh
-
 # environment variables used in bash scripts
 env:
   global:
   - UNITYCI_PROJECT_NAME="Breakout"
-  - UPLOAD_KEYPATH="./Scripts/upload/"
