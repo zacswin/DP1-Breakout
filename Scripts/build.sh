@@ -18,7 +18,7 @@ cat $(pwd)/test.xml
 # exit if tests failed
 if [ $rc0 -ne 0 ]; then { echo "Failed unit tests"; exit $rc0; } fi
 
-exit 1
+exit 0
 
 # ## Make the build
 # echo "Attempting build of ${UNITYCI_PROJECT_NAME} for OSX"
