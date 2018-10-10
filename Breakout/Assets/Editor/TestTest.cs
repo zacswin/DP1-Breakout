@@ -8,7 +8,7 @@ public class TestTest {
 
 	[Test]
 	public void TestTestSimplePasses() {
-		Assert.AreEqual(10, 5 + 5);
+		Assert.AreEqual(10, 5 + 2);
 	}
 
 	// A UnityTest behaves like a coroutine in PlayMode
