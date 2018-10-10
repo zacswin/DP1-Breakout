@@ -10,7 +10,6 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 	-projectPath "$(pwd)/${UNITYCI_PROJECT_NAME}" \
 	-runEditorTests \
 	-editorTestsResultFile $(pwd)/test.xml \
-	-quit
 
 rc0=$?
 echo "Unit test logs"
